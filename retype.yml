@@ -1,6 +1,6 @@
 input: .
 output: website
-url: # Add your website address here
+url: oubit.github.io/KBTest
 branding:
   title: Project Name
   label: Docs
@@ -12,4 +12,3 @@ links:
   link: https://retype.com/guides/getting-started/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
-url: oubit.github.io/KBTest
