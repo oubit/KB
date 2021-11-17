@@ -1,11 +1,11 @@
 input: .
 output: website
-url: oubit.github.io/KBTest
+url: oubit.github.io/KB
 branding:
   title: Project Name
   label: Docs
 edit: 
-  repo: https://github.com/oubit/KBTest
+  repo: https://github.com/oubit/KB
   base: src/docs
 links:
 - text: Getting Started
