@@ -5,8 +5,7 @@ branding:
   title: Project Name
   label: Docs
 edit: 
-  repo: https://github.com/oubit/KB
-  base: src/docs
+  repo: https://github.com/oubit/KBs
 links:
 - text: Getting Started
   link: https://retype.com/guides/getting-started/
