@@ -2,12 +2,13 @@ input: .
 output: website
 url: oubit.github.io/KB
 branding:
-  title: Project Name
-  label: Docs
+  title: KB
+  label: v0.1
 edit: 
   repo: https://github.com/oubit/KBs
+  base: /
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: IT
+  link: https://oubit.github.io/KB/IT/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
