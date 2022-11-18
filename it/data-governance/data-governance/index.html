@@ -7,21 +7,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>Terminolog&#237;a</title>
-    <meta name="title" content="Terminología">
-    <meta name="description" content="Diferenciar entre lo que es un diccionario y un catálogo." />
+    <title>Data Governance</title>
+    <meta name="title" content="Data Governance">
+    <meta name="description" content="Diferenciar entre los distintos elementos que componen el gobierno del dato." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://oubit.github.io/KB/terminología/">
-    <meta property="og:title" content="Terminología">
-    <meta property="og:description" content="Diferenciar entre lo que es un diccionario y un catálogo.">
+    <meta property="og:url" content="https://oubit.github.io/KB/it/data-governance/data-governance/">
+    <meta property="og:title" content="Data Governance">
+    <meta property="og:description" content="Diferenciar entre los distintos elementos que componen el gobierno del dato.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://oubit.github.io/KB/terminología/">
-    <meta property="twitter:title" content="Terminología">
-    <meta property="twitter:description" content="Diferenciar entre lo que es un diccionario y un catálogo.">
+    <meta property="twitter:url" content="https://oubit.github.io/KB/it/data-governance/data-governance/">
+    <meta property="twitter:title" content="Data Governance">
+    <meta property="twitter:description" content="Diferenciar entre los distintos elementos que componen el gobierno del dato.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/KB/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -177,74 +177,95 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="terminología" class="break-words">
+<doc-anchor-target id="data-governance" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#terminología">#</doc-anchor-trigger>
-        <span>Terminología</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-governance">#</doc-anchor-trigger>
+        <span>Data Governance</span>
     </h1>
 </doc-anchor-target>
-<p>Diferenciar entre lo que es un diccionario y un catálogo.</p>
+<doc-anchor-target id="terminología">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#terminología">#</doc-anchor-trigger>
+        <span>Terminología</span>
+    </h2>
+</doc-anchor-target>
+<p>Diferenciar entre los distintos elementos que componen el gobierno del dato.</p>
+<doc-anchor-target id="data-dictionary">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-dictionary">#</doc-anchor-trigger>
+        <span>Data Dictionary</span>
+    </h3>
+</doc-anchor-target>
 <p>El <strong>diccionario de datos</strong> son los metadatos de la información con la que se trabajará. Esto es, los nombres de los campos, sus tipos de datos, su descripción y las entidades a las que pertenecen.
 Una organización puede tener muchos diccionarios de datos, ajustados a cada dominio. Cada uno de ellos, deberá tener un responsable último.</p>
+<doc-anchor-target id="data-catalog">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-catalog">#</doc-anchor-trigger>
+        <span>Data Catalog</span>
+    </h3>
+</doc-anchor-target>
 <p>El <strong>catálogo de datos</strong> son los propios datasets con la información, no los metadatos. Debe permitir además el descubrimiento y búsqueda de la información.
 El catálogo debe ser único a todos los diccionarios y permitir consultar y acceder a toda la información.</p>
-<p><span class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-red-600 bg-red-100 h-6 px-2 text-xs rounded-md">
-    <span>Ojito</span>
-</span> Por encima de ellos, se sitúa el <strong>glosario de negocio</strong> (<em>busines glosary</em>), donde recogemos los términos y sus significados (atributos, sinónimos y cualquier otra propiedad que ayude a definirlo), para permitir hablar a la organización en los mismos términos y evitar malos entendidos y explicaciones repetitivas (agilidad).</p>
-<p>Y añadimos una frase chula:</p>
-<blockquote>
-<p>Todo lo que pudo ser y no fue</p>
-</blockquote>
-<p>Y unas pestañas</p>
-<doc-tabs>
-<doc-tab id="tab-1">
-<template #title>Tab 1</template>
-<p>Esto es lo que hay</p>
-</doc-tab>
-<doc-tab id="tab-2">
-<template #title>Tab 2</template>
-<p>Otra cosa chula</p>
-</doc-tab>
-</doc-tabs>
-<p>Y lo de los paneles</p>
-<doc-panel id="panel-1">
-    <template #title>Panel 1</template>
-<p>Mira esto</p>
-</doc-panel>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Columna 1</th>
-<th>Columna 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Toma esto</td>
-<td>Y esto</td>
-</tr>
-<tr>
-<td>Ayuda aqui</td>
-<td>Y aqui</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
-        <span>Column 1</span>
-    </div>
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
-        <span>Column 2</span>
-    </div>
-    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
-<p>Solo una fila</p>
-    </div>
-    <div class="px-5 py-3 docs-columns-content">
-<p>Queda chulo??</p>
+<p>En otras terminologías se denomina <strong>Data Market</strong>.</p>
+<doc-anchor-target id="data-literacy">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-literacy">#</doc-anchor-trigger>
+        <span>Data Literacy</span>
+    </h3>
+</doc-anchor-target>
+<p>Por encima de los anteriores, se sitúa el <strong>glosario de negocio</strong> (<em>busines glosary</em>, <em>data literacy</em>), donde recogemos los términos y sus significados (atributos, sinónimos y cualquier otra propiedad que ayude a definirlo), para permitir hablar a la organización en los mismos términos y evitar malos entendidos y explicaciones repetitivas (agilidad).</p>
+<doc-anchor-target id="data-culture">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-culture">#</doc-anchor-trigger>
+        <span>Data Culture</span>
+    </h3>
+</doc-anchor-target>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+            <h5>Pendiente</h5>
+<p><em>Data Culture</em></p>
+        </div>
     </div>
 </div>
+<doc-anchor-target id="data-product">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#data-product">#</doc-anchor-trigger>
+        <span>Data Product</span>
+    </h3>
+</doc-anchor-target>
+<p>Aquel producto que aporta valor de negocio a partir de los datos.
+La creación y disponibilidad de <em>data products</em> es lo que define una organización <em>data driven</em>.</p>
+<doc-anchor-target id="tools">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tools">#</doc-anchor-trigger>
+        <span>Tools</span>
+    </h2>
+</doc-anchor-target>
+<iframe style="margin: 10px 0 20px 0; width: 100%; height: 450px;" allowfullscreen frameborder="0" src="https://raindrop.io/o-unzue/data-catalogue-18223910/embed"></iframe>
+<doc-anchor-target id="adoption">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adoption">#</doc-anchor-trigger>
+        <span>Adoption</span>
+    </h2>
+</doc-anchor-target>
+<p>Habla de un <em>framework</em> sencillo para comenzar.</p>
+<ul>
+<li>Assessment (tools, skills)</li>
+<li>Plan (timeframes)</li>
+<li>Alfabetización (for all skill levels)</li>
+<li>Find our champions (passionate about data)</li>
+<li>Monitor (measure)</li>
+</ul>
 
 
 
@@ -254,7 +275,7 @@ El catálogo debe ser único a todos los diccionarios y permitir consultar y acc
             </div>
 
             <div class="flex flex-wrap items-center justify-between mt-14">
-    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/oubit/KBs/blob/main/Terminología.md" target="_blank" rel="noopener">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/oubit/KBs/blob/main/IT/Data governance/Data Governance.md" target="_blank" rel="noopener">
         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         <span>Edit this page</span>
     </a>
@@ -264,16 +285,23 @@ El catálogo debe ser único a todos los diccionarios y permitir consultar y acc
 
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/KB/manual/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/KB/it/arquitecture/ciberseguridad/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">Manual</span>
+                <span class="block mt-1">Identificar</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/KB/it/data-governance/datawarehouse/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Datawarehouse</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
     </div>
 </nav>
 
@@ -318,6 +346,6 @@ El catálogo debe ser único a todos los diccionarios y permitir consultar y acc
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Terminología", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Data Governance", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
